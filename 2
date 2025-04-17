@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caselyst | Modern Phone Cases</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      padding: 1.5rem 2rem;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 1rem;
+    }
+    .product-name {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .product-price {
+      color: #777;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .product-description {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Caselyst</div>
+  </header>
+
+  <section class="product-grid">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1623776052854-7da37d2c5b96" alt="Aurora Clear Case" />
+      <div class="product-info">
+        <div class="product-name">Aurora Clear Case</div>
+        <div class="product-price">$14.99</div>
+        <div class="product-description">Crystal-clear protection that showcases your phone’s natural beauty. Designed with shock-absorbing edges and a slim profile, perfect for everyday use while keeping your device safe and stylish.</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1606819351884-fbc5b99a1eb0" alt="Luxe Marble Case" />
+      <div class="product-info">
+        <div class="product-name">Luxe Marble Case</div>
+        <div class="product-price">$18.99</div>
+        <div class="product-description">Elevate your look with our premium marble case. This design combines elegance and minimalism with a matte finish, offering both aesthetic appeal and drop protection.</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1631301637835-4b37b61ae912" alt="NeoGrip Armor Case" />
+      <div class="product-info">
+        <div class="product-name">NeoGrip Armor Case</div>
+        <div class="product-price">$21.99</div>
+        <div class="product-description">Built for adventure, the NeoGrip Armor offers military-grade protection with a rugged finish and textured grip. Ideal for those who need more than just basic protection.</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1585386959984-a4155220f45e" alt="Pastel Pop Case" />
+      <div class="product-info">
+        <div class="product-name">Pastel Pop Case</div>
+        <div class="product-price">$16.50</div>
+        <div class="product-description">Soft, colorful, and lightweight. The Pastel Pop Case adds a splash of fun to your phone while maintaining a slim, grippy texture that feels amazing in your hand.</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589561084283-930aa7b1db6d" alt="Carbon Shield Case" />
+      <div class="product-info">
+        <div class="product-name">Carbon Shield Case</div>
+        <div class="product-price">$19.99</div>
+        <div class="product-description">Inspired by carbon fiber, this bold case offers both style and substance. The anti-slip material and reinforced corners protect your phone from drops and scratches.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Caselyst. All rights reserved.
+  </footer>
+</body>
+</html>
