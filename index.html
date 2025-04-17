@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caselyst | Modern Phone Cases</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      padding: 1.5rem 2rem;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 1rem;
+    }
+    .product-name {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .product-price {
+      color: #777;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Caselyst</div>
+  </header>
+
+  <section class="product-grid">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1617054502333-f98fc1a2b47e" alt="Aurora Clear Case" />
+      <div class="product-info">
+        <div class="product-name">Aurora Clear Case</div>
+        <div class="product-price">$14.99</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1593642532973-d31b6557fa68" alt="Luxe Marble Case" />
+      <div class="product-info">
+        <div class="product-name">Luxe Marble Case</div>
+        <div class="product-price">$18.99</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1603899123010-42e1dc8b1d53" alt="NeoGrip Armor Case" />
+      <div class="product-info">
+        <div class="product-name">NeoGrip Armor Case</div>
+        <div class="product-price">$21.99</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3" alt="Pastel Pop Case" />
+      <div class="product-info">
+        <div class="product-name">Pastel Pop Case</div>
+        <div class="product-price">$16.50</div>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620" alt="Carbon Shield Case" />
+      <div class="product-info">
+        <div class="product-name">Carbon Shield Case</div>
+        <div class="product-price">$19.99</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Caselyst. All rights reserved.
+  </footer>
+</body>
+</html>
